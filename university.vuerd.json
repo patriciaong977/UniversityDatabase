@@ -3,7 +3,7 @@
     "width": 2000,
     "height": 2000,
     "scrollTop": 0,
-    "scrollLeft": 1.440000057220459,
+    "scrollLeft": 1.2000000476837158,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -17,7 +17,7 @@
     },
     "database": "MariaDB",
     "databaseName": "",
-    "canvasType": "ERD",
+    "canvasType": "GeneratorCode",
     "language": "GraphQL",
     "tableCase": "pascalCase",
     "columnCase": "camelCase",
