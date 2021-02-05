@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="area1">
+    <div style="position: relative;">
+      <div style="background-color:#d4661c; height:90px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <div style="position:absolute; top:0; right:10px; width:100px; text-align:right; font-family: s;">
+          Created By: <br/> Benjamin Ahn <br/> Brian Edwards <br/> Patricia Ong <br/>
+        </div>
+        <h1 style="font-size: 40px;"> Welcome to the Universty Database </h1>
+      </div>
+    </div>
+    <br/>
+    <div style="background-color:#3977c9; padding-bottom: 20px;">
+      <b style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 40px;">Professor</b>
+      <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+      </br>
+        For retrieving <b> titles </b>, <b>classrooms</b>, <b>meeting days</b>, and <b>class times</b>...
+      </div>
+      
+      <form action="submit1.php" method="GET">
+      <label style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;" for="ssn">
+        Input <u> Social Security Number</u>
+      </label>
+      <input type="text" id="ssn" name="ssn" required>
+      <input type="submit" id="ssnSubmit" name="ssnSubmit">
+      </form>
+
+      <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+      </br>
+        For retrieving <b>the number of students getting distinct grades in a section</b>...
+      </div>
+      
+      <form action="submit2.php" method="GET">
+      <label style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;" for="profcourse">
+        Input <u> Course Number</u>
+      </label>
+      <input type="text" id="profcourse" name="profcourse" required>
+      <p style="font-size: 20px; display: inline;" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">AND</b>
+      <label style="display: inline; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;" for="profsection"> <u>Section Number</u></label>
+      <input type="text" id="profsection" name="profsection" required> 
+      <input type="submit" id="coursesectionSubmit">
+      </form>
+    </div>
+  </br>
+
+    <div style="background-color:#3977c9; padding-bottom: 20px;">
+      <b style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 40px;">Student</b>
+      <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+      </br>
+        For retrieving <b> course section numbers </b>and their <b> corresponding classrooms</b>, <b>meeting days</b>, <b>class times</b> and <b>number of students enrolled</b>...
+      </div>
+      <form action="submit3.php" method="GET">
+        <label style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;" for="studcourse">
+          Input <u> Course Number</u>
+        </label>
+        <input type="text" id="studcourse" name="studcourse" required>
+        <input type="submit" id="courseSubmit">
+      </form>
+
+      <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
+      </br>
+        For retrieving a student's<b> courses </b>and their <b>grades</b>...
+      </div>
+      <form action="submit4.php" method="GET">
+        <label style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;" for="cwid">
+          Input <u> Campus Wide ID</u>
+        </label>
+        <input type="text" id="cwid" name="cwid" required>
+        <input type="submit" id="cwidSubmit">
+      </form>
+    </div>
+  </div>
+
+  
+</body>
+</html>
+
