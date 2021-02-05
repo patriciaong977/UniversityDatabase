@@ -11,6 +11,20 @@ For us to fully incorporate what we learned in databases, we were tasked to desi
 Our group created a simple Web Application which connects to a MariaDB database of a university we have constructed. The web application uses a HTML Front-End and a PHP Back-End that displays the results from the database to the user through SQL statements.
 
 ---
+## Diagrams
+We created models in order to get a visual structure of how our database will look like. Below is the ER Diagram and the Relational Model. 
+
+<br/><br/>
+### ER Diagram
+![ER Diagram](https://github.com/patriciaong977/UniversityDatabase/blob/main/READ.ME%20Pictures/ERDiagram.PNG)
+<br/><br/>
+
+<br/><br/>
+### Relational Model
+![Relational Model](https://github.com/patriciaong977/UniversityDatabase/blob/main/READ.ME%20Pictures/RelationalModel.PNG)
+<br/><br/>
+
+---
 ### Visualization
 The CSUF server was only available for a limited time. I have provided example runs to show the final product.
 
